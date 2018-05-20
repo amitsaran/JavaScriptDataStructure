@@ -25,11 +25,11 @@ QueueStack.prototype.top = function(){ return this._right(); };
 QueueStack.prototype.bottom = function(){ return this._left(); };
 
 // private functions, don't use them
-//   add a value at the zeroth placee 
+//   add a value at the zeroth place
 QueueStack.prototype._addLeft = function(value){ this._array.unshift(value); };
 //   add a value at the end of the array 
 QueueStack.prototype._addRight = function(value){ this._array.push(value); };
-//   removes the value at the zeroth placee 
+//   removes the value at the zeroth place
 QueueStack.prototype._removeLeft = function(){ return this._array.unshift(); };
 //   removes the value at the end of the array 
 QueueStack.prototype._removeRight = function(){ return this._array.pop(); };
